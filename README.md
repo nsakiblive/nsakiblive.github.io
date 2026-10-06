@@ -6,7 +6,7 @@ A responsive static personal portfolio built with HTML, CSS and JavaScript. Cont
 
 ## Publishing
 
-GitHub Pages publishes the `main` branch from `/ (root)`. Every commit to this branch triggers an automatic Pages deployment. `.nojekyll` preserves the static source without Jekyll processing. HTTPS is enforced by GitHub Pages.
+GitHub Pages uses **GitHub Actions** as the publishing source. `.github/workflows/pages.yml` deploys static files from `main` using the `ubuntu-22.04` hosted runner, without a Jekyll build. Every push to `main` triggers deployment; the workflow also supports manual runs. Only the website files are packaged in the Pages artifact. HTTPS is enforced by GitHub Pages.
 
 ## Files and editing
 
