@@ -389,3 +389,68 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
   .closing-links{margin-top:24px}
   .about-columns{margin-top:20px}
 }
+
+
+/* 2026-11-01 atomic visual + spacing pass */
+.policy-process{padding:18px 4.5vw 26px;border-bottom:1px solid #292929}
+.policy-process-head{display:grid;grid-template-columns:.35fr 1fr;gap:40px;align-items:end;margin-bottom:14px}
+.policy-process-head .section-index{margin:0}
+.policy-process-head p{max-width:680px;color:#8e8e88;font-size:12px}
+.policy-process-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:10px}
+.policy-process figure{margin:0;background:#111;border:1px solid #2c2c2c}
+.policy-process img{display:block;width:100%;height:100%;object-fit:cover}
+.process-landscape img{aspect-ratio:3/2}
+.process-portrait img{aspect-ratio:3/2;object-position:center 30%}
+.policy-process figcaption{padding:9px 11px;color:#85857f;font-size:9px;border-top:1px solid #2c2c2c}
+
+/* tighter rhythm across the whole portfolio */
+.section{padding-top:42px;padding-bottom:42px}
+.section-top{margin-bottom:24px}
+.inner-hero{padding-top:38px;padding-bottom:28px;min-height:auto}
+.archive{padding-top:34px;padding-bottom:40px}
+.work-method,.story-block,.about-proof,.publication-feature,.publication-list,.writing-note{padding-top:38px;padding-bottom:38px}
+.closing{padding-top:46px;padding-bottom:30px}
+.case-hero{padding-top:38px;padding-bottom:26px;min-height:auto}
+.case-summary{margin-top:16px}
+.case-meta div{padding-top:9px;padding-bottom:9px}
+.case-evidence{padding-top:8px;padding-bottom:18px}
+.case-section{padding-top:30px;padding-bottom:30px;gap:22px}
+.case-section h2{margin-bottom:14px}
+.case-section p+p{margin-top:10px}
+.policy-proof-strip>div{padding-top:9px;padding-bottom:9px}
+.timeline article,.practice-list article{padding-top:20px;padding-bottom:20px}
+.writing-list>a,.writing-list>div,.secondary-list article{padding-top:17px;padding-bottom:17px}
+
+@media(max-width:900px){
+  .policy-process{padding:12px 5vw 20px}
+  .policy-process-head{grid-template-columns:1fr;gap:6px;margin-bottom:10px}
+  .policy-process-grid{grid-template-columns:1fr}
+  .process-landscape img{aspect-ratio:3/2}
+  .process-portrait img{aspect-ratio:4/3}
+  .section{padding-top:34px;padding-bottom:34px}
+  .inner-hero{padding-top:30px;padding-bottom:22px}
+  .archive{padding-top:28px;padding-bottom:32px}
+  .work-method,.story-block,.about-proof,.publication-feature,.publication-list,.writing-note{padding-top:30px;padding-bottom:30px}
+  .closing{padding-top:38px;padding-bottom:26px}
+  .case-hero{padding-top:28px;padding-bottom:20px}
+  .case-section{padding-top:24px;padding-bottom:24px;gap:10px}
+  .case-evidence{padding-bottom:12px}
+}
+@media(max-width:560px){
+  .nav-shell{height:62px}
+  #site-nav{top:61px}
+  html{scroll-padding-top:62px}
+  .hero-copy{padding-top:24px;padding-bottom:20px}
+  .section{padding-top:28px;padding-bottom:28px}
+  .section-top{margin-bottom:18px}
+  .inner-hero{padding-top:26px;padding-bottom:18px}
+  .archive{padding-top:24px;padding-bottom:28px}
+  .work-method,.story-block,.about-proof,.publication-feature,.publication-list,.writing-note{padding-top:26px;padding-bottom:26px}
+  .closing{padding-top:34px;padding-bottom:24px}
+  .case-hero{padding-top:24px;padding-bottom:16px}
+  .case-summary{margin-top:12px;gap:12px}
+  .case-section{padding-top:20px;padding-bottom:20px}
+  .case-section h2{margin-bottom:11px}
+  .policy-process{padding-top:8px;padding-bottom:14px}
+  .policy-process figcaption{padding:8px 9px}
+}
