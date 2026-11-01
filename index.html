@@ -41,7 +41,7 @@
   }
   </script>
 </head>
-<body>
+<body class="home-page">
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="nav-shell">
@@ -95,107 +95,68 @@
   </section>
 
   <section class="section work-section" id="work">
-    <div class="section-top">
+    <div class="section-top home-section-top">
       <div>
         <span class="section-index">01 / SELECTED WORK</span>
         <h2>Not a list of skills.<br><em>Evidence of work.</em></h2>
       </div>
-      <p class="section-note">Selected formal and independent work. Client names are omitted where unnecessary; outcomes and methods are shown where they can be shared responsibly.</p>
+      <p class="section-note">Four flagship examples across policy, climate, data and consulting. The full archive carries the rest.</p>
     </div>
 
-    <div class="work-grid">
-      <article class="case case-yellow">
-        <div class="case-top"><span>DATA MINING / FRANCE</span><span>01</span></div>
-        <div class="case-visual visual-paca" aria-hidden="true">
-          <div class="data-row"><b>5,000</b><span>brief</span></div>
-          <div class="arrow-line">→</div>
-          <div class="data-row large"><b>14,000+</b><span>delivered</span></div>
+    <div class="home-featured-work">
+      <a class="home-feature-card home-feature-photo" href="policy-lab.html">
+        <div class="home-feature-media">
+          <img src="assets/policy-lab-discussion.webp" alt="Nazmus Sakib participating in a group discussion at the Colombo Policy Lab">
         </div>
-        <div class="case-body">
-          <h3>Verified PACA Region School Contact List</h3>
-          <p>Scraping, manual verification, enrichment, deduplication and campaign-ready formatting for a large French school database.</p>
-          <button class="case-open" type="button" data-project="paca">Open case study ↗</button>
+        <div class="home-feature-copy">
+          <span>POLICY / COLOMBO / 2023</span>
+          <h3>Regional Policy Lab → Published Policy Writing</h3>
+          <p>Organizing a South Asian policy dialogue on equity and urban nature-based solutions, then carrying the learning into a published ICCCAD article.</p>
+          <b>Read case study ↗</b>
         </div>
-      </article>
+      </a>
 
-      <article class="case case-sky">
-        <div class="case-top"><span>POWER BI / ROAD SAFETY</span><span>02</span></div>
-        <div class="case-visual visual-accident" aria-hidden="true">
-          <div class="axis"></div>
-          <svg viewBox="0 0 500 170" role="img" aria-label="Abstract trend chart">
-            <polyline points="0,125 65,92 118,104 170,51 220,80 280,43 340,69 396,32 455,48 500,18" fill="none" stroke="currentColor" stroke-width="7" vector-effect="non-scaling-stroke"/>
-          </svg>
+      <a class="home-feature-card home-feature-blue" href="case-crmft.html">
+        <div class="home-feature-stat"><strong>120+</strong><span>local & ward adaptation plans</span></div>
+        <div class="home-feature-copy">
+          <span>CLIMATE / ICCCAD</span>
+          <h3>Climate Resilient Migrant Friendly Town</h3>
+          <p>Vulnerability assessment, locally led adaptation, training, planning and knowledge products for climate-affected communities.</p>
+          <b>Read case study ↗</b>
+        </div>
+      </a>
+
+      <a class="home-feature-card home-feature-yellow" href="case-paca.html">
+        <div class="home-feature-stat"><strong>14,000+</strong><span>verified records delivered</span></div>
+        <div class="home-feature-copy">
+          <span>DATA MINING / FRANCE</span>
+          <h3>Verified PACA School Contact Database</h3>
+          <p>Scraping, manual verification, enrichment, deduplication and campaign-ready formatting for a large school database.</p>
+          <b>Read case study ↗</b>
+        </div>
+      </a>
+
+      <a class="home-feature-card home-feature-sky" href="case-accident.html">
+        <div class="home-feature-chart" aria-hidden="true">
+          <svg viewBox="0 0 500 150"><polyline points="0,118 60,92 112,100 165,54 220,78 282,42 340,66 400,31 455,47 500,18" fill="none" stroke="currentColor" stroke-width="7"/></svg>
           <span>WEATHER × TEMPERATURE × WIND</span>
         </div>
-        <div class="case-body">
-          <h3>US Accident Data: Weather & Temperature Impact</h3>
-          <p>Traffic and weather data merged, cleaned and translated into an interactive Power BI dashboard for road-safety analysis.</p>
-          <button class="case-open" type="button" data-project="accident">Open case study ↗</button>
+        <div class="home-feature-copy">
+          <span>POWER BI / ROAD SAFETY</span>
+          <h3>US Accident × Weather Analysis</h3>
+          <p>Accident and weather data merged, cleaned and translated into an interactive Power BI analysis for road-safety insight.</p>
+          <b>Read case study ↗</b>
         </div>
-      </article>
-
-      <article class="case case-orange case-wide">
-        <div class="case-top"><span>POLICY / COLOMBO</span><span>03</span></div>
-        <div class="case-visual visual-policy" aria-hidden="true">
-          <div class="policy-word">EQUITY</div>
-          <div class="policy-word">NATURE</div>
-          <div class="policy-word">CITY</div>
-          <div class="policy-note">Regional Policy Lab · Sri Lanka · 2023</div>
-        </div>
-        <div class="case-body">
-          <h3>From a Regional Policy Lab to Published Policy Writing</h3>
-          <p>Coordinating a South Asian policy lab on equitable urban nature-based solutions, then carrying its learning into a published ICCCAD policy article.</p>
-          <button class="case-open" type="button" data-project="policy">Open case study ↗</button>
-        </div>
-      </article>
-
-      <article class="case case-paper">
-        <div class="case-top"><span>PYTHON / AUTOMATION</span><span>04</span></div>
-        <div class="case-visual visual-code" aria-hidden="true">
-          <span>&gt; select start_date</span>
-          <span>&gt; select end_date</span>
-          <span>&gt; fetch_price_history()</span>
-          <b>CSV READY ✓</b>
-        </div>
-        <div class="case-body">
-          <h3>Bloomberg Agriculture Data Scraper</h3>
-          <p>A reusable Google Colab workflow for historical agriculture price extraction, validation, CSV delivery and optional charting.</p>
-          <button class="case-open" type="button" data-project="bloomberg">Open case study ↗</button>
-        </div>
-      </article>
-
-      <article class="case case-pink">
-        <div class="case-top"><span>SYSTEMS / TECHNICAL DECK</span><span>05</span></div>
-        <div class="case-visual visual-system" aria-hidden="true">
-          <div class="system-node">CLIENT</div><i></i>
-          <div class="system-node main">PAYMENT</div><i></i>
-          <div class="system-node">DOWNSTREAM</div>
-          <span class="timeout">15s timeout → 504<br>payment may continue</span>
-        </div>
-        <div class="case-body">
-          <h3>SMI Pay — Payment Platform Technical Deck</h3>
-          <p>A 28-slide engineering narrative covering architecture, failure modes, root causes, async redesign, outbox, idempotency and rollout logic.</p>
-          <button class="case-open" type="button" data-project="smipay">Open case study ↗</button>
-        </div>
-      </article>
-
-      <article class="case case-blue">
-        <div class="case-top"><span>BUSINESS ANALYTICS / US</span><span>06</span></div>
-        <div class="case-visual visual-sales" aria-hidden="true">
-          <div><span>SALES</span><b>$82.69M</b></div>
-          <div><span>COST</span><b>$51.82M</b></div>
-          <div><span>PROFIT</span><b>$30.87M</b></div>
-        </div>
-        <div class="case-body">
-          <h3>US Regional Sales: Trends & Profit Analysis</h3>
-          <p>Regional sales, product performance and profitability translated into a Power BI decision dashboard for marketing, inventory and cost choices.</p>
-          <button class="case-open" type="button" data-project="sales">Open case study ↗</button>
-        </div>
-      </article>
+      </a>
     </div>
 
-    <div class="work-more">
-      <p>Also in the archive: college/university data QA, tardigrade scientific data curation, PBL thesis research support, climate training manual development and more.</p>
+    <div class="home-secondary-work">
+      <a href="case-bloomberg.html"><span>PYTHON / AUTOMATION</span><strong>Bloomberg Agriculture Data Workflow</strong><b>↗</b></a>
+      <a href="case-payments.html"><span>SYSTEMS / TECHNICAL COMMUNICATION</span><strong>Payment Platform Technical Architecture Deck</strong><b>↗</b></a>
+    </div>
+
+    <div class="work-more home-work-more">
+      <p>Also in the archive: college/university data QA, scientific data curation, business analytics, academic research support and training-manual development.</p>
       <a href="work.html">Open the full work archive ↗</a>
     </div>
   </section>
@@ -277,25 +238,13 @@
       <p class="section-note">Selected published and research work across climate, displacement, urban nature-based solutions and locally led adaptation.</p>
     </div>
 
-    <div class="writing-list">
+    <div class="writing-list home-writing-list">
       <a href="https://www.dhakatribune.com/amp/epaper/294864/women-empowerment-in-climate-change" target="_blank" rel="noopener noreferrer">
         <span class="pub-year">2022</span>
         <span class="pub-title">Women Empowerment in Climate Change</span>
         <span class="pub-source">Dhaka Tribune</span>
         <span class="pub-arrow">↗</span>
       </a>
-      <div>
-        <span class="pub-year">2023</span>
-        <span class="pub-title">Correlation of Loss and Damage & Internal Displacement</span>
-        <span class="pub-source">Climate Tribune</span>
-        <span class="pub-arrow">•</span>
-      </div>
-      <div>
-        <span class="pub-year">2023</span>
-        <span class="pub-title">Peer To Peer Sharing among the Neighboring Countries</span>
-        <span class="pub-source">Climate Tribune</span>
-        <span class="pub-arrow">•</span>
-      </div>
       <a href="https://icccad.net/blog/carving-the-skeleton-policy-pathways-for-reframing-urban-nature-based-solutions-in-south-asian-citieswithin-the-context-of-urbanized-areas-nature-based-solutions-hold-massive-potential-and-are-imper/" target="_blank" rel="noopener noreferrer">
         <span class="pub-year">2023</span>
         <span class="pub-title">Carving the Skeleton: Policy Pathways for Reframing Urban Nature-based Solutions in South Asian Cities</span>
@@ -309,6 +258,7 @@
         <span class="pub-arrow">•</span>
       </div>
     </div>
+    <a class="home-inline-link" href="writing.html">View all writing & publications ↗</a>
   </section>
 
   <section class="section about-section" id="about">
