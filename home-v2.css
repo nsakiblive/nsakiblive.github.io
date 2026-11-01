@@ -197,3 +197,19 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
 @media(max-width:560px){
   .inner-hero h1,.case-hero h1{font-size:13vw}.archive-card h2{font-size:31px}.method-grid{grid-template-columns:1fr}.method-grid>div{min-height:210px}.about-proof-grid{grid-template-columns:1fr}.about-proof-grid div,.about-proof-grid div+div{border-right:0!important;border-bottom:1px solid #333;padding-left:0}.publication-list>a,.publication-list>article{grid-template-columns:54px 1fr 20px;gap:12px}.publication-list p{grid-column:2}.publication-list b{grid-column:3;grid-row:1}.publication-list h3{font-size:19px}.evidence-placeholder{height:270px;padding:20px}.evidence-placeholder strong{font-size:13vw}.result-grid{grid-template-columns:1fr}.case-meta{grid-template-columns:1fr}.case-meta div:nth-child(odd){border-right:0;padding-right:0}.case-meta div:nth-child(even){padding-left:0}
 }
+
+/* Policy Lab real visual evidence */
+.policy-evidence{display:grid;grid-template-columns:1.25fr .75fr;gap:16px;align-items:start}
+.policy-evidence figure{margin:0;background:#111;border:1px solid #2c2c2c}
+.policy-evidence img{display:block;width:100%;height:auto;object-fit:cover}
+.policy-hero-photo img{aspect-ratio:4/3}
+.policy-group-photo img{aspect-ratio:4/3}
+.policy-evidence figcaption{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:14px 16px;border-top:1px solid #2c2c2c}
+.policy-evidence figcaption span{font-size:8px;letter-spacing:.12em;color:var(--case-accent)}
+.policy-evidence figcaption p{font-size:10px;color:#8e8e88}
+.proof-chain{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:0 0 26px}
+.proof-chain span{border:1px solid #4b4b4b;padding:8px 10px;font-size:9px;letter-spacing:.1em}
+.proof-chain i{font-style:normal;color:var(--case-accent)}
+.publication-proof{background:#0d0d0d}
+@media(max-width:900px){.policy-evidence{grid-template-columns:1fr}.policy-evidence figcaption{grid-template-columns:120px 1fr}}
+@media(max-width:560px){.policy-evidence figcaption{grid-template-columns:1fr;gap:6px}.proof-chain{gap:7px}.proof-chain span{font-size:8px;padding:7px 8px}}
