@@ -490,3 +490,16 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
   line-height:1.45;
   background:#111;
 }
+
+
+/* Hard reset Policy Lab process caption */
+.policy-process{border-bottom:0 !important}
+.policy-process-grid{display:block !important}
+.policy-process .process-landscape{margin:0 !important;border:0 !important;background:transparent !important;overflow:visible !important}
+.policy-process .process-landscape img{display:block !important;width:100% !important;height:auto !important;aspect-ratio:auto !important;object-fit:contain !important;border:0 !important}
+.policy-process .process-caption{display:block !important;position:static !important;margin:8px 0 0 !important;padding:0 2px !important;border:0 !important;background:transparent !important;color:#85857f !important;font-size:10px !important;line-height:1.45 !important}
+.policy-process + .case-section{border-top:1px solid #292929 !important;margin-top:14px}
+@media(max-width:560px){
+  .policy-process .process-caption{font-size:9px !important;margin-top:7px !important}
+  .policy-process + .case-section{margin-top:10px}
+}
