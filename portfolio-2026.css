@@ -454,3 +454,13 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
   .policy-process{padding-top:8px;padding-bottom:14px}
   .policy-process figcaption{padding:8px 9px}
 }
+
+
+/* Fix broken Policy Lab gallery asset */
+.policy-process-grid{grid-template-columns:1fr}
+.process-landscape img{aspect-ratio:16/9;object-position:center 42%}
+@media(max-width:560px){
+  .case-hero h1{font-size:10.2vw}
+  .case-section h2{font-size:8.8vw;line-height:1.02}
+  .process-landscape img{aspect-ratio:4/3;object-position:center 38%}
+}
