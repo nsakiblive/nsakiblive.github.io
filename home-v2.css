@@ -213,3 +213,83 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
 .publication-proof{background:#0d0d0d}
 @media(max-width:900px){.policy-evidence{grid-template-columns:1fr}.policy-evidence figcaption{grid-template-columns:120px 1fr}}
 @media(max-width:560px){.policy-evidence figcaption{grid-template-columns:1fr;gap:6px}.proof-chain{gap:7px}.proof-chain span{font-size:8px;padding:7px 8px}}
+
+
+/* ---------- Compact rhythm pass: live review ---------- */
+:root{
+  --space-section:72px;
+  --space-section-mobile:44px;
+}
+.section{padding:76px 4.5vw}
+.section-top{margin-bottom:42px}
+.hero-copy{padding:5vh 0 4vh}
+.proof-rail div{padding-top:18px;padding-bottom:19px}
+.inner-hero{padding:78px 4.5vw 62px;min-height:58vh}
+.inner-hero-note{margin-top:28px}
+.archive{padding:60px 4.5vw 72px}
+.archive-card{min-height:300px}
+.work-method{padding:64px 4.5vw}
+.story-block{padding:68px 4.5vw}
+.about-proof{padding:68px 4.5vw}
+.publication-feature{padding:70px 4.5vw}
+.publication-feature h2{margin:34px 0 24px}
+.publication-list{padding:62px 4.5vw 74px}
+.writing-note{padding:68px 4.5vw}
+.closing{padding:88px 4.5vw 54px}
+.inner-closing{padding-top:76px}
+
+.case-hero{padding:76px 4.5vw 54px;min-height:56vh}
+.case-summary{margin-top:34px}
+.case-evidence{padding:20px 4.5vw 52px}
+.case-section{padding:58px 4.5vw;gap:44px}
+.case-section h2{margin-bottom:22px}
+.case-result .result-grid{margin-bottom:24px}
+.policy-evidence{grid-template-columns:1fr 1fr;gap:12px}
+.policy-evidence figure{overflow:hidden}
+.policy-evidence img{width:100%;height:320px;object-fit:cover;background:#171717}
+.policy-hero-photo img{object-fit:contain;background:#f6f4ef}
+.policy-evidence figcaption{padding:12px 14px}
+.policy-proof-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#2b2b2b;border-top:1px solid #2b2b2b;border-bottom:1px solid #2b2b2b}
+.policy-proof-strip>div{background:#101010;padding:18px 4.5vw 18px 18px}
+.policy-proof-strip span{display:block;font-size:8px;letter-spacing:.12em;color:var(--orange);margin-bottom:6px}
+.policy-proof-strip strong{font-size:11px;font-weight:500;color:#c8c8c2;line-height:1.45}
+
+@media(max-width:900px){
+  .section{padding:56px 5vw}.section-top{margin-bottom:32px}
+  .inner-hero{padding:58px 5vw 44px}
+  .archive{padding:48px 5vw 58px}.archive-card{min-height:260px}
+  .work-method,.story-block,.about-proof,.publication-feature,.publication-list,.writing-note{padding-top:52px;padding-bottom:52px}
+  .closing{padding:66px 5vw 44px}
+  .case-hero{padding:58px 5vw 42px}
+  .case-summary{margin-top:24px}
+  .case-evidence{padding:12px 5vw 36px}
+  .case-section{padding:44px 5vw;gap:18px}
+  .policy-evidence{grid-template-columns:1fr}
+  .policy-evidence img{height:auto;max-height:420px}
+  .policy-hero-photo img{object-fit:contain}
+  .policy-proof-strip{grid-template-columns:1fr}
+  .policy-proof-strip>div{padding:14px 5vw}
+}
+@media(max-width:560px){
+  .hero-copy{padding:7vh 0 5vh}
+  .section{padding:44px 5vw}
+  .section h2{font-size:10.5vw}
+  .inner-hero{padding:46px 5vw 36px}
+  .inner-hero h1,.case-hero h1{font-size:11.5vw}
+  .archive{padding:40px 5vw 48px}
+  .archive-card{min-height:230px;padding:22px}
+  .story-block{padding:46px 5vw}.story-number{font-size:76px}
+  .about-proof,.publication-feature,.publication-list,.writing-note{padding-top:46px;padding-bottom:46px}
+  .closing{padding:56px 5vw 38px}
+  .case-hero{padding:44px 5vw 34px}
+  .case-summary{gap:22px;margin-top:20px}
+  .case-evidence{padding:10px 5vw 28px}
+  .case-section{padding:36px 5vw;gap:14px}
+  .case-section h2{font-size:9.8vw;margin-bottom:18px}
+  .case-section p{font-size:14px}
+  .result-grid>div{padding:18px}
+  .proof-chain{margin-bottom:18px}
+  .policy-evidence{gap:10px}
+  .policy-evidence figcaption{padding:10px 12px}
+  .policy-proof-strip>div{padding:12px 5vw}
+}
