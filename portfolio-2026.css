@@ -464,3 +464,29 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
   .case-section h2{font-size:8.8vw;line-height:1.02}
   .process-landscape img{aspect-ratio:4/3;object-position:center 38%}
 }
+
+
+/* Fix Policy Lab caption overlap */
+.policy-process figure{
+  display:block;
+  overflow:hidden;
+}
+.policy-process img{
+  display:block;
+  width:100%;
+  height:auto !important;
+  object-fit:cover;
+}
+.process-landscape img{
+  aspect-ratio:4/3;
+  object-position:center 38%;
+}
+.policy-process figcaption{
+  position:static;
+  display:block;
+  margin:0;
+  padding:10px 12px 11px;
+  border-top:1px solid #2c2c2c;
+  line-height:1.45;
+  background:#111;
+}
