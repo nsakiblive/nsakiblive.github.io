@@ -198,3 +198,37 @@
 @media(max-width:560px){.cr-chapters{top:62px}.crmft-study section[id]{scroll-margin-top:55px}.cr-topline{font-size:8px;gap:10px}.cr-topline>span{font-size:7px}.crmft-study .cr-programme{font-size:10px;letter-spacing:.02em}.cr-hero h1{font-size:9.2vw}.cr-two-spaces{gap:18px}.cr-two-spaces b{font-size:12px}.cr-two-spaces span{font-size:10px}.cr-two-spaces i{font-size:23px}.cr-snapshot strong{overflow-wrap:anywhere}.cr-reflection h2{font-size:8.5vw}.cr-next>a:not(.cr-all-work){font-size:8.2vw}}
 @media(prefers-reduced-motion:reduce){.cr-expand{transition:none}.crmft-page{scroll-behavior:auto}}
 @media print{.nav-shell,.cr-chapters,.cr-zoom .cr-expand,.cr-next,#cr-lightbox{display:none!important}.crmft-page{background:#fff;color:#111}.crmft-study{overflow:visible}.crmft-study h1,.crmft-study h2,.crmft-study h3,.crmft-study p,.crmft-study em{color:#111!important}.cr-section{break-before:auto}.cr-photo,.cr-evidence{break-inside:avoid}.cr-chain-section,.cr-reflection{background:#fff}.cr-hero h1{font-size:48px}.cr-wrap{padding-left:0;padding-right:0}}
+
+
+/* Reserved visual system for CRMFT content freeze */
+.cr-live-image{background:#111;overflow:hidden}
+.cr-live-image img{display:block;width:100%;height:auto;object-fit:cover}
+.cr-lead .cr-live-image img{aspect-ratio:16/9;object-position:center 42%}
+.cr-visual-slot{
+  min-height:320px;
+  border:1px dashed #454545;
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.025) 25%,transparent 25%) 0 0/18px 18px,
+    #111;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:22px;
+}
+.cr-visual-slot span{font-size:8px;letter-spacing:.14em;color:#6f8fd3;margin-bottom:auto}
+.cr-visual-slot strong{font-size:clamp(24px,3.2vw,46px);line-height:1;letter-spacing:-.04em;max-width:760px}
+.cr-visual-slot p{font-size:10px;line-height:1.45;color:#888881;max-width:620px;margin-top:10px}
+.cr-calendar .cr-visual-slot,.cr-matrix .cr-visual-slot{min-height:430px}
+.cr-output .cr-cover .cr-visual-slot{min-height:520px}
+.cr-process-gallery .cr-visual-slot{min-height:280px}
+.cr-evidence .cr-visual-slot + figcaption,
+.cr-photo .cr-visual-slot + figcaption{border-top:1px solid #2a2a2a}
+
+@media(max-width:720px){
+  .cr-lead .cr-live-image img{aspect-ratio:4/3;object-position:center 38%}
+  .cr-visual-slot{min-height:220px;padding:16px}
+  .cr-calendar .cr-visual-slot,.cr-matrix .cr-visual-slot{min-height:280px}
+  .cr-output .cr-cover .cr-visual-slot{min-height:340px}
+  .cr-process-gallery .cr-visual-slot{min-height:220px}
+  .cr-visual-slot strong{font-size:8vw}
+}
