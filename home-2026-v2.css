@@ -608,3 +608,17 @@ dialog h2{font-size:clamp(36px,5vw,64px);padding:28px 25px 0}
   .home-page .about-columns{grid-template-columns:1fr;gap:12px;margin-top:16px}
   .home-page .closing{padding-top:32px;padding-bottom:24px}
 }
+
+
+/* CRMFT field imagery */
+.crmft-home-media img{object-position:center 42%}
+.crmft-evidence{padding-top:8px}
+.crmft-lead-photo{margin:0;background:#111;border:1px solid #2c2c2c;overflow:hidden}
+.crmft-lead-photo img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:center 42%}
+.crmft-lead-photo figcaption{display:grid;grid-template-columns:220px 1fr;gap:18px;padding:12px 14px;border-top:1px solid #2c2c2c}
+.crmft-lead-photo figcaption span{font-size:8px;letter-spacing:.12em;color:var(--blue)}
+.crmft-lead-photo figcaption p{font-size:10px;color:#8c8c86;max-width:760px}
+@media(max-width:560px){
+  .crmft-lead-photo img{aspect-ratio:4/3;object-position:center 38%}
+  .crmft-lead-photo figcaption{grid-template-columns:1fr;gap:6px;padding:10px}
+}
