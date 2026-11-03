@@ -61,20 +61,6 @@ const caseStudies = {
     impact: 'The work links event and stakeholder coordination with policy research, synthesis and published writing — showing the full path from dialogue to knowledge product.',
     tools: ['Policy research', 'Stakeholder engagement', 'Workshop coordination', 'Evidence synthesis', 'Policy writing']
   },
-  bloomberg: {
-    category: 'PYTHON / AUTOMATION',
-    title: 'Bloomberg Agriculture Data Scraper',
-    lead: 'A reusable Google Colab workflow for collecting and cleaning historical agriculture price data for analysis.',
-    brief: 'Create a repeatable, client-friendly process to fetch historical price series from selected Bloomberg pages for chosen date windows.',
-    work: [
-      'Built a Google Colab workflow with start-date and end-date controls.',
-      'Used Python tooling to fetch and parse permitted source pages.',
-      'Removed duplicates, checked missing dates and recorded runtime.',
-      'Packaged the output as a tidy CSV with optional charting and documentation.'
-    ],
-    impact: 'The result was a reusable research tool that could be rerun for new date windows or instruments rather than a one-off data pull.',
-    tools: ['Python', 'Google Colab', 'pandas', 'cloudscraper', 'matplotlib']
-  },
   smipay: {
     category: 'SYSTEMS / TECHNICAL DECK',
     title: 'SMI Pay — Payment Platform Technical Deck',
