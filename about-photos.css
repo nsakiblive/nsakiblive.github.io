@@ -1,0 +1,23 @@
+@import url('portfolio-2026.css');
+
+.about-page .about-hero{padding-bottom:48px}
+.about-page .about-hero h1{max-width:1300px}
+.about-hero-personal{display:grid;grid-template-columns:1fr .92fr;gap:8%;align-items:center;max-width:940px;width:78%;margin:38px 0 0 auto}
+.about-portrait{grid-column:2;grid-row:1;margin:0;min-width:0}
+.about-portrait img{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;object-position:48% 45%;border:1px solid #3a3832}
+.about-page .about-hero-personal .inner-hero-note{grid-column:1;grid-row:1;display:block;margin:0;max-width:430px}
+.about-page .about-hero-personal .inner-hero-note p{font-size:15px;line-height:1.85;color:#b5b5ac}
+.about-reading{margin:30px 0 0;max-width:900px}
+.about-reading img{display:block;width:100%;height:auto;background:#050505;border:1px solid #2b2925}
+.about-page .about-reading figcaption{max-width:680px;margin-top:13px;color:#8f8f85;font-size:11px;line-height:1.7}
+.about-landscape{margin:0;border-bottom:1px solid #3b3a31;background:#11130f}
+.about-landscape img{display:block;width:100%;height:auto;aspect-ratio:21/9;object-fit:cover;object-position:center 42%}
+.about-landscape figcaption{display:grid;grid-template-columns:.28fr 1fr;gap:70px;padding:18px 4.5vw 22px;border-top:1px solid #353d30}
+.about-landscape figcaption>span{font-size:8px;letter-spacing:.12em;color:#95a389;line-height:1.7}
+.about-landscape figcaption p{font-size:12px;line-height:1.7;color:#b1b6a6;max-width:780px}
+
+@media(min-width:1600px){.about-hero-personal{max-width:1050px;gap:9%}.about-portrait img{aspect-ratio:4/3}}
+@media(max-width:1000px){.about-hero-personal{width:88%;gap:6%;margin-top:30px}.about-page .about-hero-personal .inner-hero-note p{font-size:14px}.about-portrait img{aspect-ratio:1.1}.about-landscape figcaption{gap:45px}}
+@media(max-width:900px){.about-page .about-hero{padding-bottom:34px}.about-hero-personal{width:100%;max-width:none;grid-template-columns:1fr 1fr;gap:7%}.about-portrait img{aspect-ratio:5/4}.about-page .about-hero-personal .inner-hero-note p{font-size:13px}.about-reading{margin-top:26px}.about-landscape figcaption{grid-template-columns:1fr;gap:8px;padding-inline:5vw}.about-landscape figcaption p{max-width:720px}}
+@media(max-width:600px){.about-page .about-hero{padding-bottom:30px}.about-hero-personal{grid-template-columns:1fr;gap:23px;margin-top:28px}.about-portrait{grid-row:1;grid-column:1;width:85%;max-width:390px;justify-self:end}.about-portrait img{aspect-ratio:5/4;object-position:center 42%}.about-page .about-hero-personal .inner-hero-note{grid-row:2;grid-column:1;max-width:500px}.about-page .about-hero-personal .inner-hero-note p{font-size:14px;line-height:1.8}.about-reading{margin-top:24px}.about-page .about-reading figcaption{font-size:10px;margin-top:11px}.about-landscape img{aspect-ratio:4/3;object-position:center}.about-landscape figcaption{padding-top:16px;padding-bottom:18px}.about-landscape figcaption>span{font-size:7px}.about-landscape figcaption p{font-size:11px}}
+@media(max-width:560px){.about-page .about-hero h1{font-size:9.35vw;line-height:1.06}}
