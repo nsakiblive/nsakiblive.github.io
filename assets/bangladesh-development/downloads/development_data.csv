@@ -1,0 +1,251 @@
+country,country_code,indicator,indicator_code,year,value,unit
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2016,16.89909935,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2017,21.5,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2018,25.56509972,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2019,30.38310051,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2020,36.10910034,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2021,38.91744466,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2022,41.61650085,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2023,44.50274195,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2024,53.42171316,% of population
+Bangladesh,BGD,Internet use,IT.NET.USER.ZS,2025,,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2016,16.5,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2017,18.20000076,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2018,20.0813000379384,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2019,29.52350044,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2020,43.40544313,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2021,49.2580986,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2022,55.9,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2023,60.25230026,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2024,64.9434967,% of population
+India,IND,Internet use,IT.NET.USER.ZS,2025,70.0,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2016,20.70000076,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2017,24.3,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2018,28.60000038,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2019,33.33660126,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2020,36.96530151,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2021,40.98910141,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2022,45.45080185,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2023,45.80680084,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2024,46.32189941,% of population
+Nepal,NPL,Internet use,IT.NET.USER.ZS,2025,,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2016,12.385446763381,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2017,13.77999973,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2018,15.34000015,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2019,17.070901719916,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2020,18.935,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2021,,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2022,,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2023,,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2024,57.253,% of population
+Pakistan,PAK,Internet use,IT.NET.USER.ZS,2025,,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2016,22.19,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2017,25.07550049,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2018,28.33620071,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2019,32.02090073,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2020,36.18473435,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2021,44.45308724,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2022,48.3,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2023,51.2,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2024,54.59,% of population
+Sri Lanka,LKA,Internet use,IT.NET.USER.ZS,2025,,% of population
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2016,71.075,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2017,71.606,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2018,72.122,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2019,72.625,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2020,71.421,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2021,71.103,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2022,74.265,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2023,74.672,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2024,74.93,years
+Bangladesh,BGD,Life expectancy,SP.DYN.LE00.IN,2025,,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2016,69.709,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2017,70.068,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2018,70.415,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2019,70.746,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2020,70.156,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2021,67.282,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2022,71.698,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2023,72.003,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2024,72.235,years
+India,IND,Life expectancy,SP.DYN.LE00.IN,2025,,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2016,68.444,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2017,68.74,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2018,69.036,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2019,69.299,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2020,69.106,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2021,68.385,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2022,70.087,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2023,70.354,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2024,70.636,years
+Nepal,NPL,Life expectancy,SP.DYN.LE00.IN,2025,,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2016,65.943,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2017,66.223,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2018,66.481,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2019,66.729,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2020,65.701,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2021,65.773,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2022,67.417,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2023,67.649,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2024,67.799,years
+Pakistan,PAK,Life expectancy,SP.DYN.LE00.IN,2025,,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2016,76.136,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2017,76.239,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2018,76.485,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2019,76.698,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2020,76.928,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2021,76.278,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2022,77.3,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2023,77.483,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2024,77.672,years
+Sri Lanka,LKA,Life expectancy,SP.DYN.LE00.IN,2025,,years
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2016,19.4,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2017,20.6,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2018,22.0,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2019,23.1,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2020,24.6,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2021,25.9,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2022,27.2,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2023,28.4,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2024,,% of population
+Bangladesh,BGD,Clean cooking access,EG.CFT.ACCS.ZS,2025,,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2016,51.8,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2017,55.3,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2018,59.0,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2019,62.7,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2020,66.5,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2021,70.2,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2022,73.4,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2023,76.7,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2024,,% of population
+India,IND,Clean cooking access,EG.CFT.ACCS.ZS,2025,,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2016,31.8,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2017,33.4,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2018,35.1,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2019,36.6,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2020,38.3,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2021,39.9,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2022,41.1,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2023,42.7,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2024,,% of population
+Nepal,NPL,Clean cooking access,EG.CFT.ACCS.ZS,2025,,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2016,43.4,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2017,44.5,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2018,46.1,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2019,47.9,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2020,49.5,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2021,51.3,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2022,53.0,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2023,54.9,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2024,,% of population
+Pakistan,PAK,Clean cooking access,EG.CFT.ACCS.ZS,2025,,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2016,27.4,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2017,28.6,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2018,30.0,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2019,31.0,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2020,32.1,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2021,33.2,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2022,34.2,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2023,35.4,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2024,,% of population
+Sri Lanka,LKA,Clean cooking access,EG.CFT.ACCS.ZS,2025,,% of population
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2016,265224515675.034,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2017,293732446624.596,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2018,321362752441.78,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2019,351231654603.692,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2020,373979442362.193,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2021,416271647911.014,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2022,460131689083.083,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2023,437415333018.291,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2024,450119432068.852,current US$
+Bangladesh,BGD,GDP,NY.GDP.MKTP.CD,2025,,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2016,2294796885663.16,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2017,2651474262755.45,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2018,2702929641648.74,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2019,2835606256558.19,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2020,2674851578587.27,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2021,3167270623260.47,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2022,3346107287730.93,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2023,3638489096033.86,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2024,3909891533858.08,current US$
+India,IND,GDP,NY.GDP.MKTP.CD,2025,,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2016,24524109483.5293,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2017,28971588940.364,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2018,33111525237.149,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2019,34186180699.0255,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2020,33433659301.2466,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2021,36924841394.2605,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2022,41182939600.6209,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2023,41047772331.0994,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2024,42914268286.7109,current US$
+Nepal,NPL,GDP,NY.GDP.MKTP.CD,2025,,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2016,313630000130.435,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2017,339205534861.1,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2018,356128166704.921,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2019,320909472770.669,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2020,300425609817.981,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2021,348516647445.148,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2022,374890295666.694,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2023,336686348609.266,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2024,371570000121.266,current US$
+Pakistan,PAK,GDP,NY.GDP.MKTP.CD,2025,,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2016,88000211171.5956,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2017,94369350285.5814,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2018,94450015982.8405,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2019,88998706296.5783,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2020,84335574581.5072,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2021,88556698937.7033,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2022,74143020262.8076,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2023,83716142582.1945,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2024,98963185509.6499,current US$
+Sri Lanka,LKA,GDP,NY.GDP.MKTP.CD,2025,,current US$
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2016,4579.13228682862,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2017,4882.60692615639,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2018,5490.15881865179,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2019,6047.12401504125,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2020,6640.58437331062,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2021,7441.06913961254,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2022,8450.54902533941,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2023,9147.7775066555,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2024,9646.76984383255,current international $
+Bangladesh,BGD,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2025,,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2016,5800.48149366552,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2017,6144.71714444938,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2018,6714.96639877754,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2019,7150.92423452926,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2020,6966.27542785911,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2021,8050.01857452664,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2022,9207.12743040145,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2023,10323.4998734428,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2024,11159.9856476091,current international $
+India,IND,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2025,,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2016,2976.12513681451,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2017,3604.70825949747,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2018,3956.12461094443,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2019,4260.67373190851,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2020,4235.57462326905,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2021,4546.22970006289,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2022,5102.99231132947,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2023,5395.20820077513,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2024,5736.62134332704,current international $
+Nepal,NPL,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2025,,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2016,4630.7315068374,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2017,4789.53646557553,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2018,4979.3734961655,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2019,5037.53401559745,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2020,5048.0213062963,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2021,5367.27364714762,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2022,5920.27430654107,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2023,6013.989636386,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2024,6252.11543199559,current international $
+Pakistan,PAK,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2025,,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2016,13078.5605089072,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2017,13610.4723136618,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2018,14178.0225361887,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2019,14112.952504221,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2020,12940.9043295749,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2021,14316.1352225683,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2022,14193.6546217446,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2023,14455.6544414734,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2024,15632.5924849848,current international $
+Sri Lanka,LKA,"GDP per capita, PPP",NY.GDP.PCAP.PP.CD,2025,,current international $

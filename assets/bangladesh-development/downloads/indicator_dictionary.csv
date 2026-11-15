@@ -1,0 +1,6 @@
+indicator_code,indicator,unit,dashboard_comparison_year,official_reference
+IT.NET.USER.ZS,Internet use,% of population,2024,https://data.worldbank.org/indicator/IT.NET.USER.ZS
+SP.DYN.LE00.IN,Life expectancy,years,2024,https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+EG.CFT.ACCS.ZS,Clean cooking access,% of population,2023,https://data.worldbank.org/indicator/EG.CFT.ACCS.ZS
+NY.GDP.MKTP.CD,GDP,current US$,2024,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+NY.GDP.PCAP.PP.CD,"GDP per capita, PPP",current international $,2024,https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD

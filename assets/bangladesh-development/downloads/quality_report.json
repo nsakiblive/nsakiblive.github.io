@@ -1,0 +1,17 @@
+{
+  "source_sha256": "8a01cb9b16b9db59125c249c254717f3c56a754672961ce924acfb4dac11b7e4",
+  "valid_source_rows": 3850,
+  "selected_country_entries": 5,
+  "selected_indicators": 5,
+  "output_rows": 250,
+  "missing_selected_values": 32,
+  "source_verification": "Figures checked against supplied extract; original-source verification pending.",
+  "transformations": [
+    "Remove footer records without Series Code",
+    "Select five explicitly named country codes and five indicator codes",
+    "Reshape 2016-2025 columns to country-indicator-year records",
+    "Convert blank and .. to null; no imputation",
+    "Retain full numeric precision; round display only",
+    "Use metric-specific fixed comparison years, no mixed-year ranking"
+  ]
+}
