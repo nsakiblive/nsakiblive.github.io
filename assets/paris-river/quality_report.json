@@ -1,0 +1,60 @@
+{
+  "source_sha256": "42d723e11ab99f4811d42e7c166173ba16d502c011fa98acf301d082a0e62bb0",
+  "observations": 53687,
+  "unique_dates": 46237,
+  "station_date_duplicates": 0,
+  "quality_counts": {
+    "good": 51638,
+    "dubious": 17,
+    "unqualified": 2032
+  },
+  "validation_counts": {
+    "validated": 50672,
+    "pre-validated": 1104,
+    "raw": 1911
+  },
+  "missing_production_dates": 100,
+  "negative_readings": 13,
+  "alert_observations": 64,
+  "alert_threshold_mismatches": 0,
+  "flagged_extreme_records": 1,
+  "stations": [
+    {
+      "code": "F700000102",
+      "start": "1990-01-02",
+      "end": "2026-08-24",
+      "count": 13327,
+      "missing_days": 57
+    },
+    {
+      "code": "F700000103",
+      "start": "2006-01-27",
+      "end": "2026-08-24",
+      "count": 7494,
+      "missing_days": 21
+    },
+    {
+      "code": "F700000109",
+      "start": "1900-01-02",
+      "end": "1965-12-30",
+      "count": 24104,
+      "missing_days": 0
+    },
+    {
+      "code": "F700000110",
+      "start": "1966-01-02",
+      "end": "1973-12-30",
+      "count": 2920,
+      "missing_days": 0
+    },
+    {
+      "code": "F700000111",
+      "start": "1974-01-02",
+      "end": "1989-12-30",
+      "count": 5842,
+      "missing_days": 0
+    }
+  ],
+  "source_verification": "Supplied-file checks complete; original source and station datums not independently verified.",
+  "default_view": "Station F700000109, good quality, validated status, 1900-2026; known extreme excluded. No stations combined."
+}

@@ -1,0 +1,9 @@
+field,definition
+record_date,Recording date from the supplied file
+station_code,Station identifier; retained separately
+water_level_mm,Source water level in millimetres; datum not independently verified
+water_level_m,water_level_mm divided by 1000
+quality_assessment,Source quality label; separate from validation
+validation_status,Source validation label
+source_flood_alert,Source boolean label; not an independently verified warning
+review_flag,"Exact unresolved extreme record flag, otherwise blank"
