@@ -1,0 +1,20 @@
+{
+  "source_sha256": "32e1c4fb71964d68add91c1c5cfe855f0c6b275f8573c87c9e124d0d00a10cf2",
+  "source_filename": "climate_change_dataset.csv",
+  "records": 1000,
+  "fields": 10,
+  "countries": 15,
+  "year_min": 2000,
+  "year_max": 2023,
+  "blank_cells": 0,
+  "full_row_duplicates": 0,
+  "distinct_country_year_keys": 340,
+  "repeated_key_groups": 262,
+  "records_in_repeated_groups": 922,
+  "records_beyond_unique_keys": 660,
+  "population_conflict_groups": 262,
+  "candidate_key": "Country + Year; assumption for testing, not independently confirmed",
+  "source_id_rule": "CL-0001 through CL-1000 identify original data-record order within this source SHA-256. Header is CSV line 1.",
+  "source_values_changed": false,
+  "limitations": "No authoritative-source validation, imputation, deletion, averaging or synthetic-origin assertion."
+}
