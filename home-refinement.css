@@ -1,0 +1,175 @@
+/* Homepage refinement: scoped here so case studies retain their existing layout. */
+.home-page .hero-intro{max-width:800px;gap:34px}
+.home-page .hero-intro p{font-size:16px;line-height:1.6}
+.home-page .proof-rail span{font-size:10px;max-width:210px;line-height:1.6;color:#aeaea5}
+.home-page .home-hero-actions{display:flex;justify-content:space-between;align-items:center;gap:24px}
+.home-page .home-hero-actions .scroll-cue{display:flex;gap:22px;font-size:12px;color:#d4d1c8;padding:18px 0;min-height:48px}
+.home-page .home-contact-link{font-size:13px;color:var(--yellow);padding:12px 0;min-height:44px;display:flex;align-items:center;gap:22px}
+.home-page .section-index{font-size:11px;color:#b2b2a8;line-height:1.5}
+.home-page .section-note{font-size:15px;line-height:1.65;color:#b5b5ac}
+.home-page .home-section-top{margin-bottom:30px}
+.home-page .home-featured-work{background:transparent;border:1px solid #373735;gap:1px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.home-page .home-feature-card{min-width:0;min-height:0;outline:1px solid #373735;outline-offset:0}
+.home-page .home-feature-media{height:220px}
+.home-page .home-feature-copy{padding:25px;gap:0}
+.home-page .home-feature-copy>span{font-size:10px;line-height:1.6;color:#b4b4a9;letter-spacing:.1em}
+.home-page .home-feature-copy h3{font-size:clamp(28px,2.7vw,38px);line-height:1.08;margin-top:15px}
+.home-page .home-feature-copy p{font-size:15px;line-height:1.65;color:#b9b9af;margin-top:15px}
+.home-page .home-feature-copy b{font-size:13px;line-height:1.5;padding-top:22px}
+.home-page .home-foundation-card,.home-page .home-learning-card,.home-page .home-hsp-card{grid-column:1/-1;display:grid;grid-template-columns:1.15fr 1fr;min-height:330px}
+.home-page .home-foundation-card .home-feature-media{height:340px;min-height:330px}
+.home-page .home-foundation-card .home-feature-media img{height:100%;width:100%;object-fit:cover}
+.home-page .home-foundation-card .home-feature-copy,.home-page .home-learning-card .home-feature-copy,.home-page .home-hsp-card .home-feature-copy{padding:30px;justify-content:center}
+.home-page .home-foundation-card .home-feature-copy b,.home-page .home-learning-card .home-feature-copy b,.home-page .home-hsp-card .home-feature-copy b{margin-top:0}
+.home-page .home-learning-card{background:#172b22}
+.home-page .home-learning-card .home-feature-copy>span{color:#bfd3ba}
+.home-page .home-learning-card .home-feature-copy b{color:#d2e2c7}
+.home-page .nrbc-home-proof{height:100%;min-height:330px;display:grid;grid-template-columns:1.25fr .8fr;align-items:center;gap:24px;padding:30px;background:#294737;overflow:hidden;color:#f1f0dd}
+.home-page .nrbc-home-summary>span{font-size:9px;letter-spacing:.09em;line-height:1.6;display:block;color:#c5d4b9}
+.home-page .nrbc-home-summary>strong{font-family:var(--serif);font-weight:400;font-size:clamp(25px,2.5vw,35px);line-height:1.13;display:block;margin-top:20px}
+.home-page .nrbc-home-summary ul{list-style:none;padding:0;margin:22px 0 0}
+.home-page .nrbc-home-summary li{font-size:12px;padding:8px 0;border-top:1px solid #6a816a;color:#dce6d2;line-height:1.5}
+.home-page .nrbc-home-document{transform:rotate(3deg);max-width:190px}
+.home-page .nrbc-home-document img{display:block;width:100%;height:220px;object-fit:cover;object-position:center top;border:1px solid #9cb08d;box-shadow:0 10px 25px #10221580;aspect-ratio:auto}
+.home-page .nrbc-home-document>span{display:block;font-size:9px;letter-spacing:.06em;line-height:1.5;color:#d9e4cb;margin-top:12px}
+.home-page .home-hsp-card{background:#241d20}
+.home-page .home-hsp-card .home-feature-media{height:100%;min-height:330px;background:#e2ded5;display:flex;align-items:center;padding:22px}
+.home-page .home-hsp-card .home-feature-media img{height:auto!important;width:100%;object-fit:contain!important;box-shadow:0 10px 25px #10121844;border:1px solid #b9bdbe;aspect-ratio:auto}
+.home-page .home-hsp-card .home-feature-copy>span{color:#e5b5a5}
+.home-page .home-hsp-card .home-feature-copy b{color:#f0c1aa}
+.home-page .home-feature-stat{min-height:220px}
+.home-page .home-feature-stat span{font-size:11px;line-height:1.5}
+.home-page .home-data-section{margin-top:56px;padding-top:34px;border-top:1px solid #383834}
+.home-page .home-group-heading{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:25px}
+.home-page .home-group-index{display:block;font-size:10px;letter-spacing:.1em;color:#b9c4d3;line-height:1.6;margin-bottom:15px}
+.home-page .home-group-heading h3{font-size:clamp(28px,3vw,40px);line-height:1.08}
+.home-page .home-group-heading p{font-size:14px;line-height:1.65;color:#b6b6ad;max-width:460px}
+.home-page .home-data-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.home-page .home-data-card{display:flex;flex-direction:column;border:1px solid #373d48;background:#11151b;min-width:0}
+.home-page .home-data-preview{background:#101820;aspect-ratio:1504/832;overflow:hidden}
+.home-page .home-data-preview img{display:block;width:100%;height:100%;object-fit:contain}
+.home-page .home-data-copy{padding:20px;display:flex;flex-direction:column;flex:1}
+.home-page .home-data-copy>span{font-size:10px;letter-spacing:.07em;color:#b4c1d0;line-height:1.6}
+.home-page .home-data-copy h4{font-size:23px;font-weight:500;line-height:1.15;letter-spacing:-.025em;margin:12px 0 0}
+.home-page .home-data-copy p{font-size:14px;line-height:1.65;margin:12px 0 20px;color:#b8c0c9}
+.home-page .home-data-copy b{font-size:12px;font-weight:500;margin-top:auto;color:#dae4ef}
+.home-page .home-data-card:hover h4{text-decoration:underline;text-underline-offset:4px}
+.home-page .home-more-section{margin-top:42px}
+.home-page .home-group-heading-small{margin-bottom:14px}
+.home-page .home-group-heading-small h3{font-size:26px;line-height:1.2}
+.home-page .home-secondary-work{margin-top:0}
+.home-page .home-secondary-work a{grid-template-columns:230px minmax(0,1fr) 24px;gap:25px;padding:20px 0}
+.home-page .home-secondary-work span{font-size:10px;line-height:1.6;color:#aeaea4;letter-spacing:.07em}
+.home-page .home-secondary-work strong{font-size:19px;line-height:1.4}
+.home-page .home-secondary-work a:hover strong{text-decoration:underline;text-underline-offset:4px}
+.home-page .home-work-more p{font-size:13px;line-height:1.6;color:#aead9f}
+.home-page .home-work-more a,.home-page .home-inline-link{font-size:13px;line-height:1.5}
+.home-page .practice-section .section-index{color:#585850}
+.home-page .practice-section .section-note{color:#4d4d47}
+.home-page .practice-list article{padding:26px 0}
+.home-page .practice-list article>span{font-size:12px}
+.home-page .practice-list p{font-size:15px;line-height:1.65}
+.home-page .chips span{font-size:11px}
+.home-page .timeline-type{font-size:10px;line-height:1.5}
+.home-page .timeline p{font-size:15px;line-height:1.65;color:#b5b5ab}
+.home-page .timeline article{padding:27px 0}
+.home-page .resume-link{font-size:14px}
+.home-page .pub-year,.home-page .pub-source,.home-page .pub-arrow{font-size:12px;line-height:1.5;color:#b2b2a7}
+.home-page .pub-title{font-size:21px;line-height:1.35}
+.home-page .about-section .section-index{color:#394b55}
+.home-page .about-columns p{font-size:15px;line-height:1.7}
+.home-page .home-about-link{display:inline-block;margin-top:25px;font-size:14px;color:#172c38;border-bottom:1px solid #294250;padding:5px 0}
+.home-page .closing-small{font-size:10px;line-height:1.5}
+.home-page .home-contact-intro{max-width:720px;font-size:17px;line-height:1.65;margin-top:30px;color:#383019}
+.home-page .home-project-cta{display:inline-flex;align-items:center;gap:32px;background:#111;color:#f4f1e8;padding:15px 22px;font-size:16px;line-height:1.5;margin-top:24px;border:1px solid #111}
+.home-page .home-project-cta:hover{background:transparent;color:#111}
+.home-page .closing-links{margin-top:30px;font-size:14px;gap:24px}
+.home-page footer{font-size:10px}
+@media(max-width:1100px) and (min-width:901px){.home-page .nrbc-home-proof{padding:24px;gap:16px;grid-template-columns:1.2fr .7fr}.home-page .nrbc-home-document img{height:180px}.home-page .home-feature-copy h3{font-size:30px}}
+@media(max-width:900px){
+ .home-page .home-featured-work{grid-template-columns:1fr}
+ .home-page .home-foundation-card,.home-page .home-learning-card,.home-page .home-hsp-card{display:flex;min-height:0}
+ .home-page .home-foundation-card .home-feature-media{height:260px;min-height:0}
+ .home-page .home-foundation-card .home-feature-media img{height:100%;aspect-ratio:auto}
+ .home-page .home-learning-card .nrbc-home-proof{min-height:0;height:auto;padding:26px;grid-template-columns:1.25fr .8fr}
+ .home-page .nrbc-home-summary>strong{font-size:32px}
+ .home-page .home-hsp-card .home-feature-media{height:auto;min-height:0;padding:20px}
+ .home-page .home-feature-media{height:240px}
+ .home-page .home-feature-media img{height:100%;width:100%;aspect-ratio:auto}
+ .home-page .home-feature-copy,.home-page .home-foundation-card .home-feature-copy,.home-page .home-learning-card .home-feature-copy,.home-page .home-hsp-card .home-feature-copy{padding:24px}
+ .home-page .home-data-grid{grid-template-columns:1fr}
+ .home-page .home-data-card{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center}
+ .home-page .home-data-preview{aspect-ratio:1504/832}
+ .home-page .home-data-copy{padding:20px}
+ .home-page .home-data-copy h4{font-size:24px}
+ .home-page .home-data-copy p{margin-bottom:12px}
+ .home-page .home-group-heading{align-items:start;gap:20px}
+ .home-page .home-group-heading p{max-width:340px}
+ .home-page .home-secondary-work a{grid-template-columns:180px minmax(0,1fr) 20px;gap:20px}
+ .home-page .hero-intro p{font-size:15px}
+}
+@media(max-width:560px){
+ .home-page .hero-intro{gap:12px}
+ .home-page .hero-intro p{font-size:14px;line-height:1.65}
+ .home-page .hero-copy{padding-bottom:22px}
+ .home-page .proof-rail div{padding-top:17px;padding-bottom:17px}
+ .home-page .proof-rail span{font-size:10px;line-height:1.5;letter-spacing:.025em}
+ .home-page .proof-rail strong{font-size:31px}
+ .home-page .home-hero-actions{gap:18px}
+ .home-page .home-hero-actions .scroll-cue{font-size:11px;gap:15px;padding:14px 0}
+ .home-page .home-contact-link{font-size:12px;gap:12px}
+ .home-page .section-note{font-size:14px;line-height:1.65}
+ .home-page .section-index{font-size:10px}
+ .home-page .home-feature-copy,.home-page .home-foundation-card .home-feature-copy,.home-page .home-learning-card .home-feature-copy,.home-page .home-hsp-card .home-feature-copy{padding:21px}
+ .home-page .home-feature-copy h3{font-size:29px;line-height:1.12;margin-top:12px}
+ .home-page .home-feature-copy p{font-size:14px;line-height:1.65;margin-top:13px}
+ .home-page .home-feature-copy>span{font-size:10px;line-height:1.6;letter-spacing:.06em}
+ .home-page .home-feature-copy b{font-size:13px;padding-top:18px}
+ .home-page .home-feature-media,.home-page .home-foundation-card .home-feature-media{height:210px}
+ .home-page .home-learning-card .nrbc-home-proof{padding:23px 20px;gap:18px;grid-template-columns:1.25fr .8fr}
+ .home-page .nrbc-home-summary>span{font-size:9px;letter-spacing:.04em}
+ .home-page .nrbc-home-summary>strong{font-size:25px;margin-top:14px}
+ .home-page .nrbc-home-summary ul{margin-top:15px}
+ .home-page .nrbc-home-summary li{font-size:11px;padding:7px 0}
+ .home-page .nrbc-home-document img{height:175px}
+ .home-page .nrbc-home-document>span{font-size:8px}
+ .home-page .home-feature-stat{min-height:160px}
+ .home-page .home-data-section{margin-top:38px;padding-top:28px}
+ .home-page .home-group-heading{display:block}
+ .home-page .home-group-heading p{margin-top:18px;max-width:none;font-size:14px}
+ .home-page .home-group-heading h3{font-size:30px}
+ .home-page .home-data-card{display:flex;flex-direction:row;align-items:flex-start;gap:14px;background:transparent;border:0;border-top:1px solid #373d48;padding-top:20px}
+ .home-page .home-data-preview{width:88px;flex:0 0 88px;aspect-ratio:1/1;display:flex;align-items:center;background:#111822}
+ .home-page .home-data-preview img{width:100%;height:auto;aspect-ratio:1504/832}
+ .home-page .home-data-copy{padding:0}
+ .home-page .home-data-copy>span{font-size:10px;letter-spacing:.04em}
+ .home-page .home-data-copy h4{font-size:22px;line-height:1.18;margin-top:8px}
+ .home-page .home-data-copy p{font-size:14px;line-height:1.6;margin-top:10px}
+ .home-page .home-data-copy b{font-size:12px}
+ .home-page .home-more-section{margin-top:35px}
+ .home-page .home-group-heading-small h3{font-size:26px}
+ .home-page .home-secondary-work a{grid-template-columns:minmax(0,1fr) 24px;gap:7px 12px;padding:19px 0}
+ .home-page .home-secondary-work span{grid-column:1;font-size:10px;letter-spacing:.04em}
+ .home-page .home-secondary-work strong{grid-column:1;font-size:18px;line-height:1.35}
+ .home-page .home-secondary-work b{grid-column:2;grid-row:1/3}
+ .home-page .home-work-more{display:block}
+ .home-page .home-work-more a{display:inline-block;margin-top:16px}
+ .home-page .practice-list article{padding:20px 0;grid-template-columns:28px minmax(0,1fr);gap:12px}
+ .home-page .practice-list h3{font-size:24px;line-height:1.15}
+ .home-page .practice-list p{font-size:14px;line-height:1.65}
+ .home-page .chips{gap:7px}
+ .home-page .chips span{font-size:11px}
+ .home-page .timeline article{padding:22px 0}
+ .home-page .timeline-year{font-size:23px}
+ .home-page .timeline h3{font-size:25px;line-height:1.15}
+ .home-page .timeline p{font-size:14px;line-height:1.65}
+ .home-page .pub-title{font-size:19px;line-height:1.4}
+ .home-page .pub-year,.home-page .pub-source,.home-page .pub-arrow{font-size:11px}
+ .home-page .about-columns p{font-size:14px;line-height:1.7}
+ .home-page .home-about-link{font-size:14px;margin-top:18px}
+ .home-page .home-contact-intro{font-size:15px;margin-top:25px}
+ .home-page .home-project-cta{font-size:15px;padding:14px 20px;gap:24px}
+ .home-page .closing-small{font-size:9px}
+ .home-page .closing-links{font-size:13px;gap:18px;margin-top:26px}
+ .home-page footer{font-size:10px;line-height:1.6}
+}
